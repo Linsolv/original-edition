@@ -1,0 +1,53 @@
+{
+    "name": "ose",
+    "title": "Old-School Essentials",
+    "description": "Play B/X OSR modules with Old-School Essentials on Foundry VTT",
+    "version": "1.4.5",
+    "minimumCoreVersion": "0.8.6",
+    "compatibleCoreVersion": "9",
+    "templateVersion": 2,
+    "author": "VTT Red, U~man",
+    "esmodules": [
+        "dist/module/ose.js"
+    ],
+    "styles": [
+        "dist/ose.css"
+    ],
+    "packs": [],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "dist/lang/en.json"
+        },
+        {
+            "lang": "it",
+            "name": "Italian",
+            "path": "dist/lang/it.json"
+        },
+        {
+            "lang": "fr",
+            "name": "French (FRANCE)",
+            "path": "dist/lang/fr.json"
+        },
+        {
+            "lang": "pt-BR",
+            "name": "Português (Brasil)",
+            "path": "dist/lang/pt-BR.json"
+        },
+        {
+            "lang": "es",
+            "name": "Spanish",
+            "path": "dist/lang/es.json"
+        }
+    ],
+    "gridDistance": 5,
+    "gridUnits": "ft",
+    "url": "https://github.com/vttred/ose",
+    "manifest": "https://github.com/vttred/ose/releases/latest/download/system.json",
+    "download": "https://github.com/vttred/ose/releases/download/1.4.5/system.zip",
+    "bugs": "https://github.com/vttred/ose/issues",
+    "flags": {
+        "allowBugReporter": true
+    }
+}
